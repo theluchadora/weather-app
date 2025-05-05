@@ -11,7 +11,7 @@ button.addEventListener('click', function() {
    
     // Fetch the weather data for the entered city
     // from this website https://home.openweathermap.org/
-    fetch('https://api.openweathermap.org/data/2.5/weather?q='+inputValue.value+'&appid=your api')
+    fetch('https://api.openweathermap.org/data/2.5/weather?q='+inputValue.value+'&appid=your api ')
     .then(response => response.json())
     .then(data => {
            var nameValue = data['name'];
