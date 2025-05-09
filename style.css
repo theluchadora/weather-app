@@ -26,12 +26,12 @@ body{
     font-family: "Nunito", sans-serif;
     width: 100%;
     height: 100vh;
-    background: url(images/hero-bg.jpg) center / cover no-repeat;
+    background: url(img/weatherImage.jpg) center / cover no-repeat;
 }
 
 .input{
-    text-align: center;
-    margin: 100px 0 ;
+    
+    margin: 190px 0 0 400px ;
 }
 
 input[type="text"]{
@@ -67,7 +67,7 @@ input[type="submit"]:hover {
 
 .display{
     font-size: 20px;
-    text-align: center;
+    margin: 50px 0 0 600px ;
     color: white;
     font-weight: bold;
 }
